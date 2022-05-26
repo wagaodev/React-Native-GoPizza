@@ -29,6 +29,7 @@
     "eslint-plugin-import-helpers"
   ],
   "rules": {
+    "import/no-extraneous-dependencies": "off",
     "prettier/prettier": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unused-vars": "error",
@@ -76,10 +77,6 @@
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }
-    ],
-    "import/no-extraneous-dependencies": [
-      "error",
-      { "devDependencies": ["**/*.test.tsx", "**/*.spec.tsx"] }
     ]
   },
   "settings": {
