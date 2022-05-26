@@ -34,6 +34,8 @@
 		DD8CBAEEB90C42E2919CB4C9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D12E2CE443BF4D199FC8A8C2 /* Roboto-Regular.ttf */; };
 		E4333EA4EF894D2698C7CAF2 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B06A6A3F4AB42B38F9D9071 /* Inter-Bold.ttf */; };
 		EAD815C34DA7416A831AAAE7 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFA60358178B4F9E9CA4DB69 /* Montserrat-ExtraBold.ttf */; };
+		2E4F55859FE24A7DACB07570 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B63B30E97FB8410BBB5E8976 /* DMSans-Regular.ttf */; };
+		88D1825032DC42D080A80F11 /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 173D034C50EB4BFBB700747D /* DMSerifDisplay-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,8 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EE44335AB84D47DC9F7D8195 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		F442939516724B7A9794180A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = ../assets/icons/Octicons.ttf; sourceTree = "<group>"; };
+		B63B30E97FB8410BBB5E8976 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; name = "DMSans-Regular.ttf"; path = "../assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		173D034C50EB4BFBB700747D /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "DMSerifDisplay-Regular.ttf"; path = "../assets/fonts/DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +205,8 @@
 				33C8F5270400457C8134507E /* Sk-Modernist-Bold.otf */,
 				8EE7E91DDDAE467988D8220D /* Sk-Modernist-Mono.otf */,
 				A958391F7651432EB1B356C2 /* Sk-Modernist-Regular.otf */,
+				B63B30E97FB8410BBB5E8976 /* DMSans-Regular.ttf */,
+				173D034C50EB4BFBB700747D /* DMSerifDisplay-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -364,6 +370,8 @@
 				59A99AF862CF47249723B54B /* Sk-Modernist-Bold.otf in Resources */,
 				1129F412C7C145FB96845EB8 /* Sk-Modernist-Mono.otf in Resources */,
 				7C126197EC6E4050B4BDE216 /* Sk-Modernist-Regular.otf in Resources */,
+				2E4F55859FE24A7DACB07570 /* DMSans-Regular.ttf in Resources */,
+				88D1825032DC42D080A80F11 /* DMSerifDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

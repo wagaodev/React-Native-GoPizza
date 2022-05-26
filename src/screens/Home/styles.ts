@@ -5,16 +5,16 @@ import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
   flex: 1;
-  background-color: ${({ theme }) => theme.colors.shape_dark};
+  background-color: ${({ theme }) => theme.colors.BLACK};
   justify-content: center;
   align-items: center;
 `;
 export const Title = styled.Text`
   font-size: 20px;
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.BACKGROUND};
   font-family: Sk-Modernist-Bold;
 `;
 export const Description = styled.Text`
   font-size: 16px;
-  color: ${({ theme }) => theme.colors.white};
+  color: ${({ theme }) => theme.colors.BACKGROUND};
 `;
